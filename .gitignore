@@ -1,0 +1,36 @@
+# Bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Local environments and tool caches
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.vscode/
+.idea/
+
+# Caches and run outputs -- contain pseudonymised patient records; never commit
+.kernel_cache/
+.preprocess_cache/
+.raw_excel_cache/
+sim_output/
+dose2qaly_output/
+*.pkl
+*.pkl.gz
+*.zst
+
+# Input data files
+*.xlsx
+*.xlsm
+*.xls
+*.csv
+
+# Synthetic validation cohorts (no patient data) are the one allowed exception
+!validation/*.xlsx

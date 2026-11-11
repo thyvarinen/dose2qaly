@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: >-
+  If you use Dose2QALY, please cite the article given under
+  preferred-citation.
+type: software
+title: Dose2QALY
+version: 1.0.0
+license: MIT
+repository-code: https://github.com/thyvarinen/dose2qaly
+authors:
+  - family-names: Hyvärinen
+    given-names: Tero
+    orcid: https://orcid.org/0009-0001-6216-9376
+    affiliation: Research Unit of Health Sciences and Technology, Faculty of Medicine, University of Oulu, Oulu, Finland
+  - family-names: Brix
+    given-names: Mikael
+    orcid: https://orcid.org/0000-0003-4646-6714
+    affiliation: Research Unit of Health Sciences and Technology, Faculty of Medicine, University of Oulu, Oulu, Finland
+  - family-names: Liimatainen
+    given-names: Timo
+    orcid: https://orcid.org/0000-0001-7472-9900
+    affiliation: Research Unit of Health Sciences and Technology, Faculty of Medicine, University of Oulu, Oulu, Finland
+  - family-names: Hanni
+    given-names: Matti
+    orcid: https://orcid.org/0000-0002-1747-2667
+    affiliation: Research Unit of Health Sciences and Technology, Faculty of Medicine, University of Oulu, Oulu, Finland
+abstract: >-
+  Monte Carlo estimation of lifetime cancer risk and ICRP
+  severity-weighted QALYs lost from diagnostic medical-imaging
+  examination records.
+keywords:
+  - radiation risk
+  - diagnostic imaging
+  - ICRP Publication 152
+  - quality-adjusted life-years
+  - Monte Carlo
+preferred-citation:
+  type: article
+  title: Quality-adjusted life-years lost to radiation from diagnostic imaging
+  authors:
+    - family-names: Hyvärinen
+      given-names: Tero
+      orcid: https://orcid.org/0009-0001-6216-9376
+    - family-names: Brix
+      given-names: Mikael
+      orcid: https://orcid.org/0000-0003-4646-6714
+    - family-names: Liimatainen
+      given-names: Timo
+      orcid: https://orcid.org/0000-0001-7472-9900
+    - family-names: Hanni
+      given-names: Matti
+      orcid: https://orcid.org/0000-0002-1747-2667
+  year: 2026
+  status: in-preparation
